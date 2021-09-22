@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>Realtorist.Web.Install.Application</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Dmytro Bondarchuk</Authors>
+    <Title>Realtorist.Web.Install.Application</Title>
+    <Description>Web application for the Installation page of Realtorist framework</Description>
+    <RepositoryUrl>https://github.com/realtorist/Realtorist.Web.Install.Application</RepositoryUrl>
+    <ReleaseNotes>Initial publish</ReleaseNotes>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExtCore.Mvc.Infrastructure" Version="6.0.0" />
+    <PackageReference Include="Realtorist.Models" Version="0.0.2" />
+    <PackageReference Include="Realtorist.DataAccess.Abstractions" Version="0.0.2" />
+    <PackageReference Include="Realtorist.Services.Abstractions" Version="0.0.2" />
+  </ItemGroup>
+
+</Project>

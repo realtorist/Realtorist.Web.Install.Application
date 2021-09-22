@@ -1,0 +1,8 @@
+bin
+obj
+.vs
+*.csproj.user
+
+Realtorist.Web.Install.Application/wwwroot/install
+
+Realtorist.Web/wwwroot/install/**/*
