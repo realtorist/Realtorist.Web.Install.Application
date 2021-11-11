@@ -69,7 +69,7 @@ namespace Realtorist.Web.Install.Application.Controllers
 
             _logger.LogInformation("Writing additional settings...");
             await _settingsDataAccess.UpdateSettingsAsync(SettingTypes.Social, new SocialSettings());
-            await _settingsDataAccess.UpdateSettingsAsync(SettingTypes.ListingSources, new RetsConfiguration[0]);
+            await _settingsDataAccess.UpdateSettingsAsync(SettingTypes.Listings, new ListingsSettings());
             await _settingsDataAccess.UpdateSettingsAsync(AppearanceSettingTypes.HomePageSettings, new HomePageSettings{ Components = new PageComponent[0] });
             await _settingsDataAccess.UpdateSettingsAsync(AppearanceSettingTypes.ThemeSettings, new ThemeSettings { StyleOverrides = new System.Collections.Generic.Dictionary<string, string>() });
 

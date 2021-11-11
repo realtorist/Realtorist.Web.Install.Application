@@ -10,7 +10,7 @@ namespace Realtorist.Web.Install.Application
 {
     public class StartupServices : IConfigureServicesExtension
     {
-        public int Priority => 3;
+        public int Priority => (int)ExtensionPriority.MainApplication + 1;
 
         public void ConfigureServices(IServiceCollection services, IServiceProvider serviceProvider)
         {

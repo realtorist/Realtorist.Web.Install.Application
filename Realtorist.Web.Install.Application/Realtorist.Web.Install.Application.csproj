@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <PackageId>Realtorist.Web.Install.Application</PackageId>
-    <Version>0.0.1</Version>
+    <Version>0.0.3</Version>
     <Authors>Dmytro Bondarchuk</Authors>
     <Title>Realtorist.Web.Install.Application</Title>
     <Description>Web application for the Installation page of Realtorist framework</Description>
@@ -13,10 +13,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Realtorist.Extensions.Base" Version="0.0.2" />
-    <PackageReference Include="Realtorist.Models" Version="0.0.2" />
-    <PackageReference Include="Realtorist.DataAccess.Abstractions" Version="0.0.2" />
-    <PackageReference Include="Realtorist.Services.Abstractions" Version="0.0.2" />
+    <PackageReference Include="Realtorist.Extensions.Base" Version="0.0.3" />
+    <PackageReference Include="Realtorist.Models" Version="0.0.3" />
+    <PackageReference Include="Realtorist.DataAccess.Abstractions" Version="0.0.3" />
+    <PackageReference Include="Realtorist.Services.Abstractions" Version="0.0.3" />
   </ItemGroup>
 
 </Project>

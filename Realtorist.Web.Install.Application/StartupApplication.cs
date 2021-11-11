@@ -7,7 +7,7 @@ namespace Realtorist.Web.Install.Application
 {
     public class StartupApplication : IConfigureApplicationExtension
     {
-        public int Priority => 0;
+        public int Priority => (int)ExtensionPriority.MainApplication - 1;
 
         public void ConfigureApplication(IApplicationBuilder app, IServiceProvider serviceProvider)
         {
